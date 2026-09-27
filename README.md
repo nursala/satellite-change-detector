@@ -1,10 +1,11 @@
 # Satellite Image Change Detector
+**MATLAB · Image registration · SSIM · Computer vision**
 
 MATLAB desktop app for detecting changes between two satellite or aerial images of the same area. A reference image and a later image are aligned, normalized, compared with structural similarity, and analyzed for changed regions.
 
 ![Actual application output from the project report: aligned satellite images, difference heatmap, and 22 detected regions](assets/demo.svg)
 
-*Screenshot from the supplied project report, showing the saved result for Desert Case 2. It was captured during the original MATLAB project run; the app was not rerun in this environment.*
+*Screenshot from the supplied project report, showing the saved result for Desert Case 2. Captured during the original MATLAB project run.*
 
 ## How it works
 
@@ -34,4 +35,4 @@ Select a Desert case, click **RUN AUTO ALIGN**, then **DETECT CHANGES**. You can
 
 The count in the screenshot is specific to Desert Case 2. A high difference score is a candidate change; seasonal variation, shadows, or registration errors can also create detections. No accuracy benchmark or labeled ground truth is provided.
 
-**Team:** Nour Salah and Shadi Younis. The private report supplied with this project contains student identity numbers, so it is intentionally excluded from the public source.
+**Team:** Nour Salah and Shadi Younis.
